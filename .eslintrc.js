@@ -18,6 +18,7 @@ module.exports = {
   parser: 'babel-eslint',
   plugins: ['react'],
   rules: {
+    'jsx-quotes': [2, 'prefer-single'],
     'import/extensions': 0,
     'react/prop-types': 0,
     'linebreak-style': 0,
